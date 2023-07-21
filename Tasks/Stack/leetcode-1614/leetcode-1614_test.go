@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func SolutionTest(t testing.T) {
+func TestSolution(t *testing.T) {
 	tests := []struct {
 		name     string
 		input    string
